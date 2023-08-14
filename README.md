@@ -147,7 +147,7 @@ Debería aparecernos la siguiente vista:
 ![desc](https://res.cloudinary.com/mypath/image/upload/v1673485974/mypath-assets/222aa250-7588-49b8-af68-f6441bcd2bc7/ssh-key-paste-with-type_bdudom.png)
 
 Como título por algo que sea descriptivo, si es tu ordenador personal puedes poner ‘Ordenador Personal’ por ejemplo.
-En el apartado Key Field pega la clave que obtuviste anteriormente y haz click en ‘Add SSH key’ y ya todo debería estar listo.
+En el apartado Key Field pega la clave que obtuviste anteriormente mediante el comando `cat`, copiando todo menos el email que nos da como mencionamos anteriormente, y haz click en ‘Add SSH key’ y ya todo debería estar listo.
 
 
 
