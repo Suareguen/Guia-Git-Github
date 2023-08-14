@@ -20,7 +20,6 @@ Más información: https://learn.microsoft.com/en-us/windows/wsl/install
 Es una herramienta de línea de comandos utilizada para descargar archivos de la web. Su instalación se lleva a cabo de la siguiente manera:
 - Abrimos WSL (Windows Subsystem Linux)
 - INtroducimos en la terminal el siguiente comando:
-- 
 ```bash
 sudo apt install wget
 ```
