@@ -136,7 +136,27 @@ cat ~/.ssh/id_ed25519.pub
 
 Si el archivo de tu clave pública SSh tiene un nombre diferente al del código de ejemplo, modifica el nombre del archivo para que coincida con tu configuración actual. Al copiar tu clave, no agregues saltos de línea ni espacios en blancos nuevos.
 
-![desc](https://res.cloudinary.com/mypath/image/upload/v1673485751/mypath-assets/222aa250-7588-49b8-af68-f6441bcd2bc7/userbar-account-settings_a6gbnw.png){{{width="auto" height="400px"}}}
+En la esquina superior derecha de cualquiera de las páginas de Github, haz click en tu foto de perfil y luego en Configuración (Settings) y luego haz click en el apartado ‘SSH and GPG Keys’ que aparece en la izquierda.
+
+![desc](https://res.cloudinary.com/mypath/image/upload/v1673485751/mypath-assets/222aa250-7588-49b8-af68-f6441bcd2bc7/userbar-account-settings_a6gbnw.png)
+
+Una vez estemos dentro de la sección `SSH and GPG Keys` hacemos click en `New SSH`:
+![desc](https://res.cloudinary.com/mypath/image/upload/v1673485808/mypath-assets/222aa250-7588-49b8-af68-f6441bcd2bc7/ssh-add-ssh-key-with-auth_jkzvoq.png)
+
+Debería aparecernos la siguiente vista:
+![desc](https://res.cloudinary.com/mypath/image/upload/v1673485974/mypath-assets/222aa250-7588-49b8-af68-f6441bcd2bc7/ssh-key-paste-with-type_bdudom.png)
+
+Como título por algo que sea descriptivo, si es tu ordenador personal puedes poner ‘Ordenador Personal’ por ejemplo.
+En el apartado Key Field pega la clave que obtuviste anteriormente y haz click en ‘Add SSH key’ y ya todo debería estar listo.
+
+
+
+
+
+
+
+
+
 
 
 
