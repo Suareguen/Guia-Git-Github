@@ -24,7 +24,7 @@ Es una herramienta de línea de comandos utilizada para descargar archivos de la
 sudo apt install wget
 ```
 
-#### Curl
+### Curl
 Es una herramienta de línea de comandos utilizada para transferir datos con URL. Su instalación se lleva a cabo de la siguiente manera:
 
 - Abrimos WSL (Windows Subsystem Linux).
@@ -59,6 +59,21 @@ brew install wget
 ```bash
 brew install got
 ```
+
+
+## Windows / MascOS / Ubuntu
+**Importante**: Si estamos usando como Sistema Operativo Windows antes de ejecutar los comandos indicados abajo debemos abrir Windows Subsystem Linux (WSL) y ejecutar los comandos desde dicha terminal.
+
+Una vez dicho esto vamos a configurar **Git** ejecutando los siguientes comandos:
+
+```bash
+git config --global user.name "JohnDoe"
+```
+
+```bash
+git config --global user.email johndoe@email.com
+```
+
 
 
 
