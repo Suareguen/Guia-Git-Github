@@ -74,9 +74,14 @@ git config --global user.name "JohnDoe"
 git config --global user.email johndoe@email.com
 ```
 
+**Nota**: En donde aparecen “John Doe” y johndoe@exameple.com pondremos el nombre de usuario que queramos y el email que vayamos a usar, en este caso es recomendable usar el usuario e email que vayamo a usar en Github, no es necesario pero para evitar líos posteriores. 
+
+Más información: https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration
 
 
+Una vez que ya tenemos Git configurado pasamos a generar una clave SSH y añadirla a nuestra cuenta de Github.
 
-
+#### ¿Cómo crear la clave SSH?
+Accedemos al directorio que contiene la carpeta .ssh, la ruta debería ser /home/nombre-de-usuario, en mi caso:
 
 
