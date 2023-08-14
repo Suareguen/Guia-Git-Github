@@ -40,6 +40,7 @@ En MacOs desde la terminal instalamos Brew, Curl y WGet de la siguiente manera:
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
+Más información: https://brew.sh/
 
 ### Curl
 
@@ -58,7 +59,7 @@ brew install wget
 ```bash
 brew install got
 ```
-
+Más información: https://git-scm.com/download/mac.
 
 ## Windows / MascOS / Ubuntu
 **Importante**: Si estamos usando como Sistema Operativo Windows antes de ejecutar los comandos indicados abajo debemos abrir Windows Subsystem Linux (WSL) y ejecutar los comandos desde dicha terminal.
