@@ -105,8 +105,37 @@ Vamos a generar una clave SSH para ello ejecutamos el siguiente comando:
  ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 
+**Nota: En donde "youremail@example.com" pondremos nuestro email de Github.**
 
-**Nota: En donde "youremail@example.com" pondremos nuestro email de Github,**
+**Le damos a enter hasta que nos termine de preguntar, creo que era 3 veces.**
+
+Ahora nos aseguraremos de que todo se haya generado correctamente y que los archivos tengan los permisos correctos. 
+Dentro de la carpeta .ssh debería haber 2 archivos: **id_ed25519** e **id_ed25519.pub**.
+
+```bash
+ls -l .ssh
+```
+
+Los permisos del archivo id_ed25519 deberían ser -rw-------, y las de id_ed25519.pub, -rw-r--r--. Si no tienen esos permisos, corregidlos con el comando chmod tal y como aprendimos en la primera clase de Linux Intro. 
+
+Ahora iniciaremos el agente que nos gestionará todas nuestras llaves y le damos la llave SSH que habíamos generado: 
+
+```bash
+eval "$(ssh-agent -s)" 
+```
+```bash
+ssh-add ~/.ssh/id_ed25519
+```
+
+Por último copiamos la clave con el comando que os paso aquí abajo y pegamos lo que nos sale en la sección de Settings -> SSH and GPG keys. IMPORTANTE: no dejar espacios al principio ni al final.
+
+```bash
+cat ~/.ssh/id_ed25519.pub
+```
+
+
+
+
 
 
 
