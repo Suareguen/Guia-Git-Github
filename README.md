@@ -84,4 +84,32 @@ Una vez que ya tenemos Git configurado pasamos a generar una clave SSH y añadir
 #### ¿Cómo crear la clave SSH?
 Accedemos al directorio que contiene la carpeta .ssh, la ruta debería ser /home/nombre-de-usuario, en mi caso:
 
+```bash
+cd home/adrian
+```
+
+Si miráis el contenido de esta carpeta con veréis que no aparece ninguna carpeta llamada .ssh. Esto es porque se trata de una carpeta oculta (todas las carpetas ocultas empiezan por .), pero aunque no lo veamos está ahí. Para ver las carpetas ocultas de un directorio usamos el comando:
+
+```bash
+ls -a
+```
+Si nos aparace la carpeta **.ssh** borramos dicha carpeta con el siguiente comando:
+
+```bash
+rm -r .ssh
+```
+Volvemos a generar una clave SSH como hicimos el día del install party, no os preocupéis, os paso los comandos pasito a pasito:
+Aquí abajo acordaos de cambiar your_email@example.com por el correo que utilizasteis para registraros en GitHub, ¡¡debe ser el mismo!! 
+Vamos a generar una clave SSH para ello ejecutamos el siguiente comando:
+```bash
+ ssh-keygen -t ed25519 -C "your_email@example.com"
+```
+
+
+**Nota: En donde "youremail@example.com" pondremos nuestro email de Github,**
+
+
+
+
+
 
