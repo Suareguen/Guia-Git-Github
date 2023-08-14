@@ -40,7 +40,7 @@ En MacOs desde la terminal instalamos Brew, Curl y WGet de la siguiente manera:
 
 Desde la terminal de MacOs introducimos el siguiete coamndo:
 
-´´´bash
+```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ´´´
 
