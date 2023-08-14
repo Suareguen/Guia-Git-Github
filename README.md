@@ -127,13 +127,11 @@ eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_ed25519
 ```
 
-Por último copiamos la clave con el comando que os paso aquí abajo y pegamos lo que nos sale en la sección de Settings -> SSH and GPG keys. IMPORTANTE: no dejar espacios al principio ni al final.
+Por último copiamos (**copiamos todo menos el email que nos aparece al final**) la clave con el comando que os paso aquí abajo y pegamos lo que nos sale en la sección de Settings -> SSH and GPG keys. **IMPORTANTE**: no dejar espacios al principio ni al final.
 
 ```bash
 cat ~/.ssh/id_ed25519.pub
 ```
-
-
 
 
 
