@@ -132,9 +132,11 @@ Por último copiamos (**copiamos todo menos el email que nos aparece al final**)
 ```bash
 cat ~/.ssh/id_ed25519.pub
 ```
+#### ¿Cómo añadir clave SSH a nuestra cuenta de Github?
 
+Si el archivo de tu clave pública SSh tiene un nombre diferente al del código de ejemplo, modifica el nombre del archivo para que coincida con tu configuración actual. Al copiar tu clave, no agregues saltos de línea ni espacios en blancos nuevos.
 
-
+![desc](https://res.cloudinary.com/mypath/image/upload/v1673485751/mypath-assets/222aa250-7588-49b8-af68-f6441bcd2bc7/userbar-account-settings_a6gbnw.png){{{width="auto" height="400px"}}}
 
 
 
