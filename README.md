@@ -44,7 +44,7 @@ En MacOs desde la terminal instalamos Brew, Curl y WGet de la siguiente manera:
 ### Curl
 
 ```bash
-brew install brew
+brew install curl
 ```
 
 ### WGet
