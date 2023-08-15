@@ -2,7 +2,7 @@
 
 ## Ubuntu
 
-Instalamos curl y git introduciendo los siguientes comandos:
+Instalamos curl y git introduciendo en la terminal los siguientes comandos:
 
 ```bash
 sudo apt update
