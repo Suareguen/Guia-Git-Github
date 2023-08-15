@@ -143,7 +143,7 @@ Vamos a generar una clave SSH para ello ejecutamos el siguiente comando:
 
 **Nota: En donde "youremail@example.com" pondremos nuestro email de Github.**
 
-**Le damos a enter hasta que nos termine de preguntar, creo que era 3 veces.**
+**Le damos a enter hasta que nos termine de preguntar sin introducir nada(3veces).**
 
 Ahora nos aseguraremos de que todo se haya generado correctamente y que los archivos tengan los permisos correctos. 
 Dentro de la carpeta .ssh debería haber 2 archivos: **id_ed25519** e **id_ed25519.pub**.
