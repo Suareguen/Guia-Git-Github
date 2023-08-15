@@ -57,7 +57,7 @@ brew install wget
 ### Git
 
 ```bash
-brew install got
+brew install gist
 ```
 Más información: https://git-scm.com/download/mac.
 
