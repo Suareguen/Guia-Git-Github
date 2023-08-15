@@ -20,7 +20,9 @@ sudo apt install curl
 sudo apt install git-all
 ```
 
-
+```bash
+sudo apt install wget
+```
 
 
 ## Windows
