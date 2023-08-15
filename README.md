@@ -1,5 +1,28 @@
 # Guia-Git-Github
 
+## Ubuntu
+
+Instalamos curl y git introduciendo los siguientes comandos:
+
+```bash
+sudo apt update
+```
+
+```bash
+sudo apt upgrade
+```
+
+```bash
+sudo apt install curl
+```
+
+```bash
+sudo apt install git-all
+```
+
+
+
+
 ## Windows
 
 
