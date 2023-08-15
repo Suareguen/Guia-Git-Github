@@ -80,7 +80,7 @@ brew install wget
 ### Git
 
 ```bash
-brew install gist
+brew install git
 ```
 Más información: https://git-scm.com/download/mac.
 
