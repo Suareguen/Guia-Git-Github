@@ -58,6 +58,17 @@ Es una herramienta de línea de comandos utilizada para transferir datos con URL
 ```bash
 sudo apt install curl
 ```
+
+### Git
+Instalamos Git de la siguente manera:
+- Abrimos WSL (Windows Subsystem Linux).
+- Introducimos en la terminal el siguiente comando: 
+
+```bash
+sudo apt install git-all
+```
+
+
 ## MacOS
 En MacOs desde la terminal instalamos Brew, Curl y WGet de la siguiente manera: 
 
