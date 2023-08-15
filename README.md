@@ -110,7 +110,7 @@ git config --global user.name "JohnDoe"
 git config --global user.email johndoe@email.com
 ```
 
-**Nota**: En donde aparecen “John Doe” y johndoe@exameple.com pondremos el nombre de usuario que queramos y el email que vayamos a usar, en este caso es recomendable usar el usuario e email que vayamo a usar en Github, no es necesario pero para evitar líos posteriores. 
+**Nota**: En donde aparecen “John Doe” y johndoe@exameple.com pondremos el nombre de usuario y el email que vayamos a usar, en este caso el que tengamos en Github.
 
 Más información: https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration
 
