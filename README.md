@@ -1,4 +1,4 @@
-# Guia-Git-Github
+# Guia Git / Github
 
 ## Ubuntu
 
