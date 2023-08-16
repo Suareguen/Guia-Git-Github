@@ -134,7 +134,7 @@ Si nos aparace la carpeta **.ssh** borramos dicha carpeta con el siguiente coman
 ```bash
 rm -r .ssh
 ```
-Volvemos a generar una clave SSH como hicimos el día del install party, no os preocupéis, os paso los comandos pasito a pasito:
+Volvemos a generar una clave SSH, no os preocupéis, os paso los comandos pasito a pasito:
 Aquí abajo acordaos de cambiar your_email@example.com por el correo que utilizasteis para registraros en GitHub, ¡¡debe ser el mismo!! 
 Vamos a generar una clave SSH para ello ejecutamos el siguiente comando:
 ```bash
