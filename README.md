@@ -13,7 +13,7 @@ sudo apt upgrade
 ```
 
 ```bash
-sudo apt install curl
+sudo apt-get install curl
 ```
 
 ```bash
