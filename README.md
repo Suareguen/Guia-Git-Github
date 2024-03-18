@@ -17,7 +17,7 @@ sudo apt-get install curl
 ```
 
 ```bash
-sudo apt install git-all
+sudo apt install git
 ```
 
 ```bash
